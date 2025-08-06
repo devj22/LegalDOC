@@ -13,7 +13,7 @@ from langchain.prompts import PromptTemplate
 
 # ✅ Set API key FIRST
 if not os.getenv("GOOGLE_API_KEY"):
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyADCKnydIYN5CZiYfuNaswxGB5ZjspeOh8"
+    os.environ["GOOGLE_API_KEY"] = "Enter your api key"
 
 # ✅ Fix for OpenMP libomp error on macOS
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
