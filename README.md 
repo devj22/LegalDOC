@@ -1,0 +1,13 @@
+# Legal Document Analyzer using Google Gemini
+
+This app allows you to upload a legal document (PDF or JPG), then:
+- Summarizes the document
+- Extracts legal clauses
+- Lets you ask questions in a chatbot interface
+
+### Powered by:
+- Google Gemini (for QA and summarization)
+- LangChain
+- FAISS vector store
+- EasyOCR & PyPDF
+- Gradio frontend
